@@ -28,7 +28,7 @@ main {
 
 section#telefone{
     height: 627px; /* altura exata da imagem (só verificar o tamnho em propriedades)*/
-    
+
     width: 311px; /* largura exata da imagem */
     
     position: absolute; /* ao colocar o valor 'absolute', posso colocar um 'top' e um 'left' */
@@ -42,3 +42,13 @@ section#telefone{
 
     background-repeat: no-repeat;
 }
+
+iframe#tela{
+    position: relative;
+    top: 81px;
+    left: 22px;
+
+    height: 469px;
+    width: 265px;
+}
+
