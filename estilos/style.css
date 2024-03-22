@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+   height: 100vh;
+   width: 100vw;
+   background-color: black;
+}
+
+main {
+    height: 100vh;
+    background-color: lightgray;
+    
+    position: relative;
+    
+    background-image: url(../imagens/fundo-madeira.jpg);
+
+    background-position: top center;
+   
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+
+section#telefone{
+    height: 627px; /* altura exata da imagem (só verificar o tamnho em propriedades)*/
+    
+    width: 311px; /* largura exata da imagem */
+    
+    position: absolute; /* ao colocar o valor 'absolute', posso colocar um 'top' e um 'left' */
+
+    top: 50%; /* 'top 50%' e 'left 50%' deixa a imgem no centro, porém a referência da imagem é seu topo do lado esquerdo */
+    left: 50%;
+
+    transform: translate(-50%, -50%); /* serve para subir um pouco a imagem e arrastar um pouco para a esquerda, deixando-a centralizada */
+
+    background-image: url('../imagens/frame-iphone.png');
+
+    background-repeat: no-repeat;
+}
