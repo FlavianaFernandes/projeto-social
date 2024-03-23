@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+::-webkit-scrollbar{ /* tira a barra de rolagem de dentro do telefone */
+
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw;
+
+}
+
+a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    background-color: red;
+}
