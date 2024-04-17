@@ -62,7 +62,7 @@ section#redes-sociais img{
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
     
-    box-sizing: border-box; /* a borda faz parte da caixa e os botões já não dão a impressão que estão se mexendo quando passa o cursos do mouse por cima */
+    box-sizing: border-box; /* a borda faz parte da caixa e os botões já não dão a impressão que estão se mexendo quando passa o cursor do mouse por cima */
     
 }
 
